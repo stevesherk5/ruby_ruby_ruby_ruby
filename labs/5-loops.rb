@@ -28,7 +28,11 @@ for rank in ranks
 end
 
 shuffle = hand.shuffle
-shuffle 
+hand = shuffle.first(5)
+for card in hand
+    puts card
+end
+
 
 # CHALLENGE
 # Deal a poker hand. Shuffle the deck and "deal" (i.e. display) a 5 card hand (i.e. 5 cards from the deck).
