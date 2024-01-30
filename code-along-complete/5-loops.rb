@@ -7,25 +7,25 @@
 #   puts "tacos!"
 # end
 
-# 1. assign the starting index
-index = 0
+# # 1. assign the starting index
+# index = 0
 
-# 2. begin the loop
-loop do
-  # 3. stop loop if has repeated 5 times
-  if index == 5
-    break
-  end
+# # 2. begin the loop
+# loop do
+#   # 3. stop loop if has repeated 5 times
+#   if index == 5
+#     break
+#   end
 
-  # 4. print "tacos!"
-  puts "tacos!"
+#   # 4. print "tacos!"
+#   puts "tacos!"
 
-  # 5. add 1 to index
-  index = index + 1
+#   # 5. add 1 to index
+#   index = index + 1
 
-  # 6. go back to beginning of loop
-  # this happens implicitly
-end
+#   # 6. go back to beginning of loop
+#   # this happens implicitly
+# end
 
 # Loop through tacos
 tacos = ["carnitas", "carne asada", "pollo"]
